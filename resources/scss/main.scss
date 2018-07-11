@@ -1,0 +1,21 @@
+.head-directive {
+  background: red;
+}
+
+header ul,
+header ul li a {
+  padding: 0 !important;
+}
+
+
+.modal-body p {
+  font-size: 14px !important;
+}
+
+.form-inline .input-group .form-control, .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn {
+  width: 125px !important;
+}
+
+.table-jobs {
+  table-layout: fixed !important;
+}

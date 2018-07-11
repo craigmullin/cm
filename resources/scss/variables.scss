@@ -1,0 +1,114 @@
+// Utility Classes
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.gutter-top {
+  margin-top: 15px;
+}
+
+.gutter-bottom {
+  margin-bottom: 15px;
+}
+
+.well {
+  border-radius: 2px;
+  background: #f7f7f7;
+  border: 1px solid #eaeaea;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.padding-sm {
+  padding-left: 7.5px;
+  padding-right: 7.5px
+}
+
+.gutter-bottom-lg {
+  margin-bottom: 30px;
+}
+
+.table-cell-sm {
+  width: 7% !important;
+}
+
+.btn {
+  border-radius: 2px;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+
+  &.btn-primary {
+    background: $primary;
+  }
+
+  &.btn-secondary {
+    background: $secondary;
+  }
+
+  &.btn-tertiary {
+    background: $tertiary;
+  }
+
+  &.btn-cta {
+    background: $cta;
+
+    &:hover {
+      background: darken($cta, 10%);
+    }
+  }
+
+  &.btn-accent {
+    background: $accent;
+  }
+
+  &.btn-default {
+    color: $black;
+  }
+}
+
+// Bootstrap 5-UP
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
