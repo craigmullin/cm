@@ -2,9 +2,16 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.page {
+  background-color:#f9f9f9;
+}
+
+.block {
+  background-color:#f9f1f1;
+}
 
 h1 {
-  color: SeaGreen;
+  color: orange;
 }
 
 
